@@ -7,5 +7,4 @@ const matches = fs.readFileSync('football.csv', {
 })
 
 
-
 console.log(matches)
