@@ -1,0 +1,7 @@
+row example:
+match date - home team - away team - HT goals - AT goals -  Winner  -  Referee 
+[10/08/2018][Man United][Leicester][    2    ][    1    ][    H    ][ A Marriner ]
+\\\\ /////    \\\\ ////  \\\\ ////  \\\\ ////  \\\\ ////  \\\\ ////   \\\\ ////
+    0             1          2          3          4          5           6
+**index positions shown above**
+**for winner col. H=home team wins - A=away team win - D=draw (tie) between teams**
