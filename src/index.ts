@@ -1,16 +1,10 @@
 import { CsvFileReader } from "./CsvFileReader";
+import { MatchResult } from "./MatchResult";
 
 const reader = new CsvFileReader('football.csv');
 reader.read();
 
-console.log(reader.data)
-
-//enum - enumeration // collection of closely related values
-enum MatchResult {
-  HomeWin = 'H',
-  AwayWin = 'A',
-  Draw = 'D'
-};
+console.log(reader.data);
 
 let manUnitedWins = 0;
 //iteration to check number of wins for Manchester United at home and away games
