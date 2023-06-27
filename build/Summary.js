@@ -9,6 +9,10 @@ class Summary {
         this.outputTarger = outputTarger;
     }
     ;
+    buildAndPrintReport(matches) {
+        const report = this.analyzer.run(matches);
+        this.outputTarger.print(report);
+    }
 }
 exports.Summary = Summary;
 ;
